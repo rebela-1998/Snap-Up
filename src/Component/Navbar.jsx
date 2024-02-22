@@ -1,10 +1,10 @@
-import React from 'react';
+// import React from 'react';
 import './Navbar.css';
 
 const Navbar = () => {
   return (
     <>
-      <div className='Navbar'>
+      
         <nav className='container-Menu'>
           <a className='brand' href='/home'>{document.title}</a>
           <div className='Menu-Options' id='Options'>
@@ -20,7 +20,7 @@ const Navbar = () => {
             <button className='cart' type="submit" href='/'>Cart</button>
           </div>
         </nav>
-      </div>
+      
     </>
   )
 }

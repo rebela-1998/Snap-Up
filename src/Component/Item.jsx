@@ -8,10 +8,11 @@ const Item = () => {
         <img src='src\assets\Tom.jpeg' className='itemImg' alt='product'/>
         <div className='itemBody'>
             <h5 className='itemName'>Tomato</h5>
-            <p className='price'>Rs 50/</p>
-            <p className='qty'>1 kg</p>
+            <p className='price_qty'>Rs 50/1kg</p>
             <button className='add' type='submit'>Add to Cart</button>
-            <button className='save' type='submit'>Save for Later</button>
+            <button className='save' type='submit'>
+              <img className='save-icon' src='src\assets\saveLater.png' alt='Save for Later'/>
+            </button>
         </div>
       </div>
     </div>
