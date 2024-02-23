@@ -1,0 +1,41 @@
+.footer{
+    display: block;
+    background-color: black;
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+    height: 30%;
+}
+
+.share_tools{
+    margin: 2em auto auto auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 20%;
+}
+.share_tool{
+    padding: 0;
+    border: none;
+    outline: none;
+    width: max-content;
+    height: max-content;
+    background-color: transparent;
+}
+.share_tool:hover, .share_tool:active{
+    outline: none;
+    border: none;
+}
+
+.share_img{
+    width: 3rem;
+    height: 3rem;
+}
+
+.deliverable_cities{
+    display: flex;
+    color: white;
+    font-size: medium;
+    margin: 1rem;
+    justify-content: center;
+}

@@ -8,6 +8,7 @@ import {
   // Routes,
   // Route
 } from "react-router-dom"; 
+import Footer from './Component/Footer';
 
 const App=()=> {
 
@@ -24,7 +25,8 @@ const App=()=> {
           </Routes> */}
           {/* <Header/>
           <Item /> */}
-          <Cart />
+          {/* <Cart /> */}
+          <Footer/>
         {/* </Router> */}
   </>
   )
