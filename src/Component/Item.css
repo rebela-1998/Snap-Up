@@ -10,7 +10,7 @@
     margin-left: 5%;
     position: relative;
     top: 6rem;
-    width:28%;
+    width:20%;
 }
 
 .item{
@@ -60,7 +60,7 @@
 .save{
     display: flex;
     grid-column: 2/span 2;
-    grid-row: 2/span 2;
+    grid-row: 1/span 2;
     font-size: 60%;
     width: 60%;
     height: 4em;

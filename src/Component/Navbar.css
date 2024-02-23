@@ -48,8 +48,8 @@
     color: black;
 }
 
-.nav-link:hover:{
-    background-color: #af77f8;
+.nav-link:hover{
+    color: #af77f8;
 }
 
 .Nav-items, .items{

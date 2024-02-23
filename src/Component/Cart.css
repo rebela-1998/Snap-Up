@@ -1,0 +1,111 @@
+.checkout-box{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    top: 7rem;
+    width: 50%;
+    height: 4em;
+    border: 1px solid #9283a3c4;
+    position: relative;
+    margin: auto;
+    border-radius: 1em;
+    background-color: #9283a3c4;
+    color: white;
+}
+
+.Total-items{
+    margin: auto 2em auto 1em;
+    font-family: "Inter", sans-serif;
+    font-size: large;
+    font-weight: bold;
+}
+
+.checkout{
+    margin: auto 1em auto 2em;
+    background-color:beige;
+    border: 0.2em solid beige;
+    color: #1c112c;
+    font-weight: bold;
+    border-radius: 0.5em;
+    font-family: "Inter", sans-serif;
+    width:fit-content;
+    font-size: 90%;
+}
+
+.checkout:hover {
+    background-color: rgb(228, 228, 200);
+    border: 0.2em solid rgb(228, 228, 200);
+}
+
+.itms{
+    display: flex;
+    position: relative;
+    top: 10rem;
+    flex-direction: column;
+    justify-content: flex-start;
+    
+}
+
+.itm{
+    display: flex;
+    flex-direction: row;
+    justify-content:space-around;
+    column-gap: 1em;
+    width: 80%;
+    border: 1px solid #E6E6E6;
+    margin: auto;
+    height: 6rem;
+    border-radius: 1em;
+}
+
+.cart_img{
+    display: flex;
+    width: 6em;
+    height: 6em;
+    margin-left: 1px;
+    border-radius: 1em;
+}
+
+.itemName, .itemwt{
+    font-family: "Inter", sans-serif;
+    font-size: large;
+    font-weight: bold;
+    margin: auto 3em auto 1em;
+    right: 2em;
+    position: relative;
+}
+
+.qty{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    width: 10rem;
+    font-family: "Inter", sans-serif;
+    font-size: medium;
+    font-weight: bold;
+    margin: auto;
+    border: 1px solid #E6E6E6;
+    border-radius: 2rem;
+    
+}
+
+.final_qty{
+    margin: auto 1px auto 1px;
+}
+
+.qty_update{
+    background-color: white;
+    border: none;
+    font-size: large;
+}
+
+.qty_update:hover, .qty_update:active, .qty_update:focus, .qty_update:focus{
+    outline: none;
+}
+
+.price{
+    font-family: "Inter", sans-serif;
+    font-size: medium;
+    font-weight: bold;
+    margin: auto;
+}
