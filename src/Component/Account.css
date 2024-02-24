@@ -1,0 +1,25 @@
+.my-account{
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 12rem;
+    left: 18rem;
+    height: 15rem;
+    justify-content: space-around;
+    color: rgb(134, 134, 134);
+}
+
+.acc-nav-options{
+    font-size: 2rem;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.orders{
+    margin-top: 3rem;
+    font-size: 1.5rem;
+}
+
+.spent{
+    font-size: 1.5rem;
+    margin-top: 1rem;
+}

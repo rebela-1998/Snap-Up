@@ -1,0 +1,18 @@
+.contact-page{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    position: absolute;
+    top: 12rem;
+    width: 80%;
+    align-content: center;
+    flex-wrap: wrap;
+    color: gray;
+    height: 20rem;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.contact-ofc{
+    border-top: 1px solid grey;
+    padding-top: 1em;
+}

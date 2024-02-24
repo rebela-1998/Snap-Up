@@ -1,0 +1,15 @@
+.category{
+    display: inline;
+    border: 1px solid #b583f5;
+    background-color: #b583f5;
+    position: fixed;
+    top: 5rem;
+    left: 2rem;
+    width: 15rem;
+    height: 1.6rem;
+    color: white;
+    font-size: 1.2rem;
+    padding: 1rem;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}

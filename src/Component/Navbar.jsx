@@ -9,7 +9,7 @@ const Navbar = () => {
             <ul className='Nav-items'>
                 <li className='items'><a className='nav-link' href='/all-items'>Shop</a></li>
                 <li className='items'><a className='nav-link' href='/order-history'>My Orders</a></li>
-                <li className='items'><a className='nav-link' href='/profile'>My Profile</a></li>
+                <li className='items'><a className='nav-link' href='/account'>My Account</a></li>
                 <li className='items'><a className='nav-link' href='/contact'>Contact Us</a></li>
             </ul>
             <div className='Menu-hidden-s-device'>

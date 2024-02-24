@@ -9,6 +9,12 @@ import {
   // Route
 } from "react-router-dom"; 
 import Footer from './Component/Footer';
+import Account from './Component/Account';
+import AccountNav from './Component/AccountNav';
+import Profile from './Component/Profile';
+import Address from './Component/Address';
+import ContactUs from './Component/ContactUs';
+import Category from './Component/Category';
 
 const App=()=> {
 
@@ -20,13 +26,19 @@ const App=()=> {
             <Route path='/' element={<Pages key='products'category='all' />}></Route>
             <Route path='/all-items' element={<Pages key='products' category='all' />}></Route>
             <Route path='/order-history' element={<Pages key='orders' category='orders' />}></Route>
-            <Route path='/profile' element={<Pages key='profile' category='profile' />}></Route>
+            <Route path='/account' element={<Pages key='profile' category='account' />}></Route>
             <Route path='/contact' element={<Pages key='Contact'  category='contact' />}></Route>
           </Routes> */}
-          {/* <Header/>
-          <Item /> */}
+         {/* <Header/> */}
+           {/* <Item /> */}
           {/* <Cart /> */}
-          <Footer/>
+          {/* <AccountNav/>
+          <Address/> */}
+          {/* <Profile/> */}
+          {/* <Account/> */}
+          {/* <ContactUs/> */}
+          <Category/>
+          {/* <Footer/> */}
         {/* </Router> */}
   </>
   )

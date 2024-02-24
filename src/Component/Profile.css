@@ -1,0 +1,22 @@
+.edit-profile{
+    display: grid;
+    position: absolute;
+    top: 12rem;
+    left: 18rem;
+    justify-content: space-evenly;
+    grid-template-columns: auto auto;
+    width: 25rem;
+    height: 20rem;
+    align-content: space-around;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.save-details{
+    display: grid;
+    grid-column: 1/span 2;
+    background-color: grey;
+    width: fit-content;
+    margin: 1px auto 1px auto;
+    color: white;
+}
+
