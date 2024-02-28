@@ -3,7 +3,7 @@ import './Category.css'
 
 const Category = () => {
   return (
-    <div className='category'>
+    <div className='category-list'>
       <p>Shop By Category</p>
     </div>
   )

@@ -1,8 +1,12 @@
 // import React from 'react';
 import'./Item.css'
+import Header from './Header'
 
-const Item = () => {
+const Item = () => { 
+
   return (
+    <>
+    <Header/>
     <div className="Products">
       <div className='item'>
         <img src='src\assets\Tom.jpeg' className='itemImg' alt='product'/>
@@ -16,6 +20,7 @@ const Item = () => {
         </div>
       </div>
     </div>
+    </>
   )
 }
 

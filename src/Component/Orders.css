@@ -1,0 +1,27 @@
+.order-history{
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    height: auto;
+    position: absolute;
+    top: 6rem;
+    left: 8%;
+    right: 10%;
+}
+
+.period{
+    padding-left: 2rem;
+}
+
+.order{
+    margin-top: 3rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    border: 1px solid rgb(185, 184, 184);
+    background-color: rgba(216, 215, 215, 0.267);
+    height: 4rem;
+    border-radius: 10px;
+    font-size: 1rem;
+    align-items: center;
+}

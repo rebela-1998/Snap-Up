@@ -1,21 +1,22 @@
  import './Navbar.css';
+ import { NavLink } from 'react-router-dom';
 
 const Navbar = () => {
   return (
     <>
         <nav className='container-Menu'>
-          <a className='brand' href='/home'>{document.title}</a>
+          <NavLink className='brand' to='/'>{document.title}</NavLink>
           <div className='Menu-Options' id='Options'>
             <ul className='Nav-items'>
-                <li className='items'><a className='nav-link' href='/all-items'>Shop</a></li>
-                <li className='items'><a className='nav-link' href='/order-history'>My Orders</a></li>
-                <li className='items'><a className='nav-link' href='/account'>My Account</a></li>
-                <li className='items'><a className='nav-link' href='/contact'>Contact Us</a></li>
+                <li className='items'><NavLink className='nav-link' to='/products'>Shop</NavLink></li>
+                <li className='items'><NavLink className='nav-link' to='/order-history'>My Orders</NavLink></li>
+                <li className='items'><NavLink className='nav-link' to='/account'>My Account</NavLink></li>
+                <li className='items'><NavLink className='nav-link' to='/contact'>Contact Us</NavLink></li>     
+                <li className='cart'><NavLink className='cart-link' to='/cart'>Cart</NavLink></li>
             </ul>
             <div className='Menu-hidden-s-device'>
               <img className='menu-icon-s-device' src='src\assets\menu.png' alt='Icon to show menu option'/>
             </div>
-            <button className='cart' type="submit" href='/'>Cart</button>
           </div>
         </nav>  
     </>

@@ -2,19 +2,23 @@
     display: block;
     background-color: black;
     width: 100%;
-    position: fixed;
+    position: absolute;
     bottom: 0;
     height: 12rem;
+    box-sizing: content-box;
+    margin-top: 1em;
+    top: 200vw;
 }
 
-.share_tools{
+.media{
     margin: 2em auto auto auto;
+    padding-top: 1em;
     display: flex;
     flex-direction: row;
     justify-content: space-around;
     width: 20%;
 }
-.share_tool{
+.media-icons{
     padding: 0;
     border: none;
     outline: none;
@@ -22,12 +26,12 @@
     height: max-content;
     background-color: transparent;
 }
-.share_tool:hover, .share_tool:active{
+.media-icons:hover, .media-icons:active{
     outline: none;
     border: none;
 }
 
-.share_img{
+.media_img{
     width: 3rem;
     height: 3rem;
 }

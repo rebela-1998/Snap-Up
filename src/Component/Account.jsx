@@ -1,8 +1,11 @@
 // import React from 'react';
 import './Account.css';
+import AccountNav from './AccountNav';
 
 const Account = () => {
   return (
+    <>
+      <AccountNav/>
       <div className='my-account'>
         <p className='acc-nav-options'>Profile Details</p>
         <p className='username'>Rebela Ray</p>
@@ -11,6 +14,7 @@ const Account = () => {
         <p className='orders'>My Total Orders: 100</p>
         <p className='spent'>My Total Spent: Rs. 2500</p>
       </div>
+    </>
   )
 }
 
