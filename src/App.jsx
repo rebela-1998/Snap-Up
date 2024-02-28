@@ -12,8 +12,9 @@ import Home from './Component/Home'
 import Account from './Component/Account';
 import Profile from './Component/Profile';
 import ContactUs from './Component/ContactUs';
-// import Category from './Component/Category';
+import Address from './Component/Address';
 import Orders from './Component/Orders';
+import AccountNav from './Component/AccountNav';
 
 const App=()=> {
 
@@ -25,8 +26,10 @@ const App=()=> {
             <Route path='/' element= {<Home/>} />
             <Route path='/products' element={<Item/>}/>
             <Route path='/order-history' element={<Orders/>}/>
-            <Route path='/account' element={<Account/>}>
-              <Route path='/account/profile' element={<Profile/>} />
+            <Route path='/account' element={<AccountNav/>}>
+              <Route index element={<Account/>}/>
+              <Route path='profile' element={<Profile/>}/>
+              <Route path='address' element={<Address/>}/>
             </Route>
             <Route path='/contact' element={<ContactUs/>}/>
             <Route path='/cart' element={<Cart/>}/>

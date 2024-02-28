@@ -1,10 +1,12 @@
 // import React from 'react';
 import './Header.css';
+import Category from './Category'
 
 const Header = () => {
   return (
     <div className='header'>
-      <h1 className='page-name'>Product</h1>
+      <Category/>
+      {/* <h1 className='page-name'>Product</h1> */}
       <ul className='sort'>
         <li className='sort-option'>Default</li>
         <li className='sort-option'>A-Z</li>

@@ -1,11 +1,11 @@
 // import React from 'react';
+// import { Outlet } from 'react-router-dom';
 import './Account.css';
-import AccountNav from './AccountNav';
+// import AccountNav from './AccountNav';
 
 const Account = () => {
   return (
     <>
-      <AccountNav/>
       <div className='my-account'>
         <p className='acc-nav-options'>Profile Details</p>
         <p className='username'>Rebela Ray</p>

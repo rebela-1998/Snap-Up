@@ -4,7 +4,7 @@ import './Category.css'
 const Category = () => {
   return (
     <div className='category-list'>
-      <p>Shop By Category</p>
+      <p className='ctgry-text'>Shop By Category</p>
     </div>
   )
 }
