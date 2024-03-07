@@ -15,6 +15,7 @@ import ContactUs from './Component/ContactUs';
 import Address from './Component/Address';
 import Orders from './Component/Orders';
 import AccountNav from './Component/AccountNav';
+import Product from './Component/Product';
 
 const App=()=> {
 
@@ -24,7 +25,7 @@ const App=()=> {
           <Navbar />
           <Routes>
             <Route path='/' element= {<Home/>} />
-            <Route path='/products' element={<Item/>}/>
+            <Route path='/products' element={<Product/>}/>
             <Route path='/order-history' element={<Orders/>}/>
             <Route path='/account' element={<AccountNav/>}>
               <Route index element={<Account/>}/>

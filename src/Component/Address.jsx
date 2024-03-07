@@ -1,4 +1,3 @@
-// import React from 'react'
 import './Address.css'
 
 const Address = () => {
@@ -11,8 +10,8 @@ const Address = () => {
         <p className='pin'>700001</p>
         <p className='mobile'>(+91) 9000001343</p>
         <button className='select-add' type='submit'>Deliver Here</button>
-        <button className='del-add' type='submit'><img src='src\assets\delete.png' alt='delete' /></button>
-        <button className='edit-add' type='submit'><img src='src\assets\edit.png' alt='edit' /></button>
+        <button className='del-add' type='submit'><i className="fa-solid fa-trash-can" /></button>
+        <button className='edit-add' type='submit'><i className="fa-solid fa-pen-to-square"/></button>
       </div>
       <button className='add-new-add' type='submit'>Add New Address</button>
     </div>

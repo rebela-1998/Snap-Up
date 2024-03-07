@@ -1,7 +1,4 @@
-// import React from 'react';
-// import { Outlet } from 'react-router-dom';
 import './Account.css';
-// import AccountNav from './AccountNav';
 
 const Account = () => {
   return (

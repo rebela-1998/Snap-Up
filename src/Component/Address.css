@@ -42,6 +42,7 @@
     font-size: 0.6rem;
     height: fit-content;
     margin: auto;
+    background-color: rgb(199, 198, 198);
 }
 
 .del-add{
@@ -57,15 +58,25 @@
      width: 1.2rem;
      height: 1.2rem;
      background-color: transparent;
+     outline: none;
+     border: none;
 }
 
+.del-add:hover, .edit-add:hover, .del-add:active, .edit-add:active, .del-add:focus, .edit-add:focus{
+    background-color: transparent;
+    outline: none;
+    border: none;
+}
 
-img{
+i{
     width: 100%;
     height: auto;
     padding: 0;
     margin: 0;
 
+}
+i:hover{
+    color: green;
 }
 
 .add-new-add{
