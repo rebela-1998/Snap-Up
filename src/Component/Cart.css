@@ -1,13 +1,22 @@
+.added-items{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    height: 100%;
+    position: relative;
+    top:5rem;
+    justify-content: space-around;
+    outline: none;
+}
 .checkout-box{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    top: 7rem;
     width: 50%;
-    height: 4em;
+    height: 4rem;
     border: 1px solid #9283a3c4;
     position: relative;
-    margin: auto;
+    margin-top: 3rem;
     border-radius: 1em;
     background-color: #9283a3c4;
     color: white;
@@ -39,56 +48,69 @@
 
 .itms{
     display: flex;
-    position: relative;
-    top: 10rem;
     flex-direction: column;
-    justify-content: flex-start;
-    
+    width: 80%;
+    position: relative;
+    height: auto;
+    margin-top: 3rem;
+    border: none;
+    justify-content: space-evenly;
 }
 
 .itm{
-    display: flex;
-    flex-direction: row;
-    justify-content:space-around;
-    column-gap: 1em;
-    width: 80%;
-    border: 1px solid #E6E6E6;
-    margin: auto;
-    height: 6rem;
-    border-radius: 1em;
+    display: grid;
+    column-gap: normal;
+    border: 1px solid rgb(212, 210, 210);
+    background-color: rgba(240, 238, 238, 0.514) ;
+    border-radius: 10px;
+    grid-template-rows: auto;
+    margin: 1rem 0;
+    justify-content: space-around;
     align-items: center;
+    grid-template-columns: auto 8rem 3rem 12rem 5rem;
+  
 }
-
 .cart_img{
     display: flex;
-    width: 6em;
-    height: 6em;
-    margin-left: 1px;
+    margin: 0.3rem 0.5rem;
     border-radius: 1em;
+    grid-column: 1;
+    width: 4rem;
+    height: 4rem;
+    grid-row: 1;
 }
 
-.itmName, .itmwt{
+.itmName{
     font-family: "Inter", sans-serif;
     font-size: large;
     font-weight: bold;
-    margin: auto 3em auto 1em;
-    right: 2em;
-    position: relative;
+    grid-column: 2;
+    width: max-content;
+    grid-row: 1;
+}
+
+.itmwt{
+    font-family: "Inter", sans-serif;
+    font-size: large;
+    font-weight: bold;
+    grid-column: 3;
+    grid-row: 1;
 }
 
 .qty{
     display: flex;
     border: 1px solid #b592e2;
     border-radius: 2em;
-    width: 80%;
+    width: 10rem;
     height: 2rem ;
     justify-content: space-evenly;
     position: relative;
     background-color: #b592e2;
     color: white;
-    margin-left: 2.5em;
-    margin-right: 2.5em;
     align-items: center;
+    grid-column: 4;
+    grid-row: 1;
+    justify-self: center;
 }
 
 
@@ -113,5 +135,16 @@
     font-family: "Inter", sans-serif;
     font-size: medium;
     font-weight: bold;
-    margin: auto;
+    grid-column: 5;
+    grid-row: 1;
+
+}
+
+.empty-cart{
+    display: flex;
+    position: relative;
+    top: 8rem;
+    font-family: "Inter", sans-serif;
+    font-size: larger;
+    justify-content: center;
 }

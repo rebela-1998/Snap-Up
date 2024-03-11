@@ -11,7 +11,7 @@ const AccountNav = () => {
                     <li className='acc-nav'><NavLink className='acc-nav-link' to='profile'>Edit Profile</NavLink></li>
                     <li className='acc-nav'><NavLink className='acc-nav-link' to='address'>My Addresses</NavLink></li>
                     <li className='acc-nav'><NavLink className='acc-nav-link' to='/order-history'>My Orders</NavLink></li>
-                    <li className='acc-nav'><NavLink className='acc-nav-link' to='/account/wishlist'>My Wish List</NavLink></li>
+                    <li className='acc-nav'><NavLink className='acc-nav-link' to='wishlist'>My Wish List</NavLink></li>
                 </ul>
             </nav>
             <Outlet/>

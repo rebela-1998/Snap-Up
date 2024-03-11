@@ -5,7 +5,8 @@ const products=[
         "product_price": "100",
         "product_unit": "1kg",
         "imgUrl": "src/assets/images/apple.jpg",
-        "category": "fruits"
+        "category": "fruits",
+        "quantity": 1
     },
     {
          "product_id":102,
@@ -13,7 +14,8 @@ const products=[
         "product_price": "80",
         "product_unit": "1kg",
          "imgUrl": "src/assets/images/Oranges.jpeg",
-         "category": "fruits"
+         "category": "fruits",
+         "quantity": 1
     },
     {
          "product_id":103,
@@ -21,7 +23,8 @@ const products=[
         "product_price": "120",
         "product_unit": "1kg",
         "imgUrl": "src/assets/images/pear.jpeg",
-        "category": "fruits"
+        "category": "fruits",
+        "quantity": 1
     },
     {
          "product_id":104,
@@ -29,7 +32,8 @@ const products=[
         "product_price": "40",
         "product_unit": "1kg",
         "imgUrl": "src/assets/images/banana.jpg",
-        "category": "fruits"
+        "category": "fruits",
+        "quantity": 1
     },
     {
          "product_id":105,
@@ -37,7 +41,8 @@ const products=[
         "product_price": "30",
         "product_unit": "1kg",
         "imgUrl": "src/assets/images/Cucumber.jpg",
-        "category": "fruits"
+        "category": "fruits",
+        "quantity": 1
     },
     {
          "product_id":106,
@@ -45,7 +50,8 @@ const products=[
         "product_price": "80",
         "product_unit": "1kg",
         "imgUrl": "src/assets/images/watermelon.jpg",
-        "category": "fruits"
+        "category": "fruits",
+        "quantity": 1
     },
     {
          "product_id":107,
@@ -53,7 +59,8 @@ const products=[
         "product_price": "60",
         "product_unit": "1kg",
         "imgUrl": "src/assets/images/melon.jpg",
-        "category": "fruits"
+        "category": "fruits",
+        "quantity": 1
     },
     {
          "product_id":108,
@@ -61,7 +68,8 @@ const products=[
         "product_price": "130",
         "product_unit": "1kg",
         "imgUrl": "src/assets/images/grapes.jpg",
-        "category": "fruits"
+        "category": "fruits",
+        "quantity": 1
     },
     {
          "product_id":109,
@@ -69,7 +77,8 @@ const products=[
         "product_price": "140",
         "product_unit": "1kg",
         "imgUrl": "src/assets/images/blackgrapes.jpg",
-        "category": "fruits"
+        "category": "fruits",
+        "quantity": 1
     },
     {
          "product_id":110,
@@ -77,7 +86,8 @@ const products=[
         "product_price": "100",
         "product_unit": "1kg",
         "imgUrl": "src/assets/images/litchi.jpg",
-        "category": "fruits"
+        "category": "fruits",
+        "quantity": 1
     }
 ]
 

@@ -16,6 +16,7 @@ import Address from './Component/Address';
 import Orders from './Component/Orders';
 import AccountNav from './Component/AccountNav';
 import Product from './Component/Product';
+import Wishlist from './Component/Wishlist';
 
 const App=()=> {
 
@@ -31,6 +32,7 @@ const App=()=> {
               <Route index element={<Account/>}/>
               <Route path='profile' element={<Profile/>}/>
               <Route path='address' element={<Address/>}/>
+              <Route path='wishlist' element={<Wishlist/>}/>
             </Route>
             <Route path='/contact' element={<ContactUs/>}/>
             <Route path='/cart' element={<Cart/>}/>

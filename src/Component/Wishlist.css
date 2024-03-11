@@ -1,0 +1,40 @@
+.prod{
+    display:grid;
+    grid-template-columns: 8rem 4rem;
+    grid-template-rows: 8rem 2rem 2rem;
+    justify-content:space-evenly;
+    align-content: flex-start;
+    border: 2px solid #E6E6E6;
+    border-radius: 1em;
+    width: fit-content;
+    height: auto;
+    font-family: "Inter", sans-serif;
+
+}
+
+.prodImg{
+    display: flex;
+    margin: 0.3rem 0.5rem;
+    border-radius: 1em;
+    grid-column: 1;
+    width: 4rem;
+    height: 4rem;
+    grid-row: 1;
+}
+
+
+.prodName{
+    grid-column: 1;
+    grid-row: 2;
+    font-size: medium;
+    margin-left: 2rem;
+}
+
+.price-qty{
+    padding-left: 2em;
+    grid-column: 1;
+    grid-row: 3;
+    justify-content: space-between;
+    font-size: 1em;
+    height: fit-content;
+}
