@@ -2,17 +2,16 @@ import { useState } from "react"
 import Item from "./Item"
 import Header from './Header.jsx'
 import products from './productApi.js'
+import { useSelector } from "react-redux"
 
 const Product = () => {
 
-    // eslint-disable-next-line no-unused-vars
-    const [productDetails,setproductDetails]=useState(products);
-    // console.log(productDetails);
+  const sort=useSelector(state=>state.productSorting)
 
   return (
     <>
       <Header />
-      <Item  itemDetails={productDetails}/>
+      <Item  itemDetails={sort}/>
     </>
   )
 }

@@ -38,20 +38,21 @@
     flex-direction: row;
     justify-content: space-evenly;
     width: 100%;  
-    margin-left: 50%;
+    margin-left: 60%;
     margin-top: 2em;
 }
 
-.sort-option{
+.sort-link{
+    color: black;
     border: 1px solid rgb(199, 196, 196);
     border-radius: 1em;
     font-size: 12px;
     width: max-content;
     height: 2em;
-    padding: 0.5em 1em 0 1em;
-
+    padding: 0.5em 1em;
+    font-family: "Inter", serif;
 }
-.sort-option:hover{
+.sort-link:hover{
     background-color: #b583f5;
     color: white
 }

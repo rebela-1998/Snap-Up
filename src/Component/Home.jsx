@@ -8,40 +8,40 @@ const Home = () => {
       <NavLink className='browse-items' to='/products'>Shop Now</NavLink>
       <div className='categories'>
         <span className='category'>
-            <a className='link-ctgry' href='fruits'>
-                <img src='' className='img-category'/>
+            <NavLink className='link-ctgry' to='/products'>
+                <img src='src\assets\images\fruitsnveges.jpg' className='img-category'/>
                 <p className='title-ctgry'>Fruits/Vegetables</p>
-            </a>
+            </NavLink>
         </span>
         <span className='category'>
-            <a className='link-ctgry' href='fruits'>
-                <img src='' className='img-category'/>
+            <NavLink className='link-ctgry' to='/products'>
+                <img src='src\assets\images\homeDecor.jpeg' className='img-category'/>
                 <p className='title-ctgry'>Home Decor</p>
-            </a>
+            </NavLink>
         </span>
         <span className='category'>
-            <a className='link-ctgry' href='fruits'>
-                <img src='' className='img-category'/>
+            <NavLink className='link-ctgry' to='/products'>
+                <img src='src\assets\images\sports.jpeg' className='img-category'/>
                 <p className='title-ctgry'>Sports</p>
-            </a>
+            </NavLink>
         </span>
         <span className='category'>
-            <a className='link-ctgry' href='fruits'>
-                <img src='' className='img-category'/>
+            <NavLink className='link-ctgry' to='/products'>
+                <img src='src\assets\images\cleaningHouse.jpeg' className='img-category'/>
                 <p className='title-ctgry'>Cleaning Household</p>
-            </a>
+            </NavLink>
         </span>
         <span className='category'>
-            <a className='link-ctgry' href='fruits'>
-                <img src='' className='img-category'/>
+            <NavLink className='link-ctgry' to='/products'>
+                <img src='src\assets\images\electronics.jpeg' className='img-category'/>
                 <p className='title-ctgry'>Electronics</p>
-            </a>
+            </NavLink>
         </span>
         <span className='category'>
-            <a className='link-ctgry' href='fruits'>
-                <img src='' className='img-category'/>
+            <NavLink className='link-ctgry' to='/products'>
+                <img src='src\assets\images\pulsesnrice.webp' className='img-category'/>
                 <p className='title-ctgry'>Pulses/Rices</p>
-            </a>
+            </NavLink>
         </span>
         
       </div>
