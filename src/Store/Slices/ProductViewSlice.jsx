@@ -8,7 +8,7 @@ const productViewSlice=createSlice({
      initialState,
      reducers: {
         sortingDefault(state,action){
-               return state;
+               return initialState;
         },
         sortingAlphabatically(state,action){
                return state.sort((p1, p2) => {

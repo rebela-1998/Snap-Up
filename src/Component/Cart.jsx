@@ -13,8 +13,8 @@ const Cart = () => {
   const decreaseQty = (id) => {
     dispatch(decreaseItemQty(id));
   }
-  const removeFromCart = (product) => {
-    dispatch(removeItem(product));
+  const removeFromCart = (id) => {
+    dispatch(removeItem(id));
   }
 
   const addedQty=(id)=>{

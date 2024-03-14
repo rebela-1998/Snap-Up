@@ -11,17 +11,17 @@ const cartSlice=createSlice({
         
     },
         removeItem(state, action){
-         state.pop(action.payload)
+        return state.filter(item=>(item.product_id!==action.payload.product_id))
     },
         increaseItemQty(state,action){
-            state.map(item=>{
+         state.map(item=>{
                if(item.product_id===action.payload){
                 item.quantity+=1
                }
             })
     },
         decreaseItemQty(state,action){
-            state.map(item=>{
+         state.map(item=>{
                 if(item.product_id===action.payload){
                  item.quantity-=1
                 }
