@@ -72,7 +72,7 @@ const Item = ({ itemDetails }) => {
                 <button className='save' onClick={() => {
                   addToWishlist(Element);
                 }}>
-                  <img className='save-icon' src='src\assets\saveLater.png' alt='Save for Later' />
+                  <img className='save-icon' src='\assets\saveLater.png' alt='Save for Later' />
                 </button>
               </div>
             </div>

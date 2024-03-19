@@ -1,6 +1,5 @@
 import './App.css';
 import Navbar from './Component/Navbar';
-import Item from './Component/Item';
 import Cart from './Component/Cart';
 import {
   BrowserRouter,
@@ -9,6 +8,7 @@ import {
 } from "react-router-dom"; 
 import Footer from './Component/Footer';
 import Home from './Component/Home'
+// import Login from './Component/Login'
 import Account from './Component/Account';
 import Profile from './Component/Profile';
 import ContactUs from './Component/ContactUs';
@@ -28,6 +28,7 @@ const App=()=> {
             <Route path='/' element= {<Home/>} />
             <Route path='/products' element={<Product/>}/>
             <Route path='/order-history' element={<Orders/>}/>
+            {/* <Route path='/login' element={<Login/>}/> */}
             <Route path='/account' element={<AccountNav/>}>
               <Route index element={<Account/>}/>
               <Route path='profile' element={<Profile/>}/>

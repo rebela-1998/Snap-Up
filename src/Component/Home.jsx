@@ -9,37 +9,37 @@ const Home = () => {
       <div className='categories'>
         <span className='category'>
             <NavLink className='link-ctgry' to='/products'>
-                <img src='src\assets\images\fruitsnveges.jpg' className='img-category'/>
+                <img src='\assets\images\fruitsnveges.jpg' className='img-category'/>
                 <p className='title-ctgry'>Fruits/Vegetables</p>
             </NavLink>
         </span>
         <span className='category'>
             <NavLink className='link-ctgry' to='/products'>
-                <img src='src\assets\images\homeDecor.jpeg' className='img-category'/>
+                <img src='\assets\images\homeDecor.jpeg' className='img-category'/>
                 <p className='title-ctgry'>Home Decor</p>
             </NavLink>
         </span>
         <span className='category'>
             <NavLink className='link-ctgry' to='/products'>
-                <img src='src\assets\images\sports.jpeg' className='img-category'/>
+                <img src='\assets\images\sports.jpeg' className='img-category'/>
                 <p className='title-ctgry'>Sports</p>
             </NavLink>
         </span>
         <span className='category'>
             <NavLink className='link-ctgry' to='/products'>
-                <img src='src\assets\images\cleaningHouse.jpeg' className='img-category'/>
+                <img src='\assets\images\cleaningHouse.jpeg' className='img-category'/>
                 <p className='title-ctgry'>Cleaning Household</p>
             </NavLink>
         </span>
         <span className='category'>
             <NavLink className='link-ctgry' to='/products'>
-                <img src='src\assets\images\electronics.jpeg' className='img-category'/>
+                <img src='\assets\images\electronics.jpeg' className='img-category'/>
                 <p className='title-ctgry'>Electronics</p>
             </NavLink>
         </span>
         <span className='category'>
             <NavLink className='link-ctgry' to='/products'>
-                <img src='src\assets\images\pulsesnrice.webp' className='img-category'/>
+                <img src='\assets\images\pulsesnrice.webp' className='img-category'/>
                 <p className='title-ctgry'>Pulses/Rices</p>
             </NavLink>
         </span>

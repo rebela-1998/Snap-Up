@@ -68,3 +68,10 @@
 .title-ctgry{
     color: black;
 }
+
+@media screen and (min-width: 360px ) {
+    .container{
+        width: 100%;
+        height: max-content;
+    }
+}

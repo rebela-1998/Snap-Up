@@ -1,0 +1,88 @@
+.login-section{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    top: 14rem;
+    width: 80%;
+    justify-content: space-evenly;
+    height: 15rem;
+    left: 10%;
+    align-items: center;
+}
+
+.login-account{
+    display: flex;
+    font-size: 2rem;
+    color:  #6D6D6D;
+    font-family: "Newsreader", serif;
+    font-weight: normal;
+    padding-left: 2rem;
+    margin-top: 0;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+    margin-bottom: 2rem;
+}
+
+.user-creds{
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    position: relative;
+    left: 15rem;
+}
+
+.login-username, .login-password{
+    font-family: "Inter", serif;
+}
+
+input{
+    height: 1.5rem;
+}
+
+input, label{
+    width: 40%;
+    margin-top: 1rem;
+}
+
+.login-signup{
+    display: flex;
+    width: 80%;
+    justify-content: space-evenly;
+    flex-direction: column;
+    left: 15rem;
+    position: relative;
+    row-gap: 1rem;
+}
+
+.no-account{
+    
+    color: #b583f5;
+    font-size: 100%;
+    font-family: "Inter", sans-serif;
+    margin-right: 0.5rem;
+}
+
+.sign-up{
+    margin-left: 1rem;
+    color: #af77f8;
+}
+
+.login{
+    margin-top: 4rem;
+    border-radius: 0.5em;
+    margin-bottom: 0.5em;
+    padding: 0.3em 0.5em;
+    width: 20%;
+    border: 0.2em solid #b583f5;
+    background-color: #b583f5;
+    color: white;
+    font-size: 100%;
+    font-family: "Inter", sans-serif;
+    
+}
+
+.login:hover, .login:active, .login:focus{
+    color:#ffffff;
+    background-color: #af77f8;
+}
