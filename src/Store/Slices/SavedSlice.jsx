@@ -1,17 +1,16 @@
-import {createSlice} from "@reduxjs/toolkit";
+import { createSlice } from "@reduxjs/toolkit";
 
-const initialState=[]
+const initialState = []
 
-const savedSlice=createSlice({
+const savedSlice = createSlice({
     name: "wishlist",
     initialState,
     reducers: {
-        savedItem(state, action){
-        state.push(action.payload)
-        
-    },
-        removeSavedItem(state, action){
-        state=state.filter((item)=>item.id!==action.payload)
+        savedItem(state, action) {
+         state.push(action.payload)
+        },
+        removeSavedItem(state, action) {
+            state = state.filter((item) => (item.id !== action.payload))
         },
     }
 
@@ -20,4 +19,4 @@ const savedSlice=createSlice({
 console.log(savedSlice.actions);
 
 export default savedSlice;
-export const {savedItem, removeSavedItem}=savedSlice.actions;
+export const { savedItem, removeSavedItem } = savedSlice.actions;

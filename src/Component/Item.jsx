@@ -9,6 +9,8 @@ const Item = ({ itemDetails }) => {
   const dispatch = useDispatch();
   // const [toggleAdd, setToggleAdd] = useState(true);
   const cartItm=useSelector((state)=>state.cart)
+  const savedItm=useSelector((state)=>state.wishlist)
+
   const addToCart = (product) => {
     dispatch(addItem(product));
   }
@@ -25,6 +27,8 @@ const Item = ({ itemDetails }) => {
   }
 
   const addToWishlist = (product) => {
+    let addedProduct=savedItm;
+    if(addedProduct.filter(item=>item.product_id==product.product_id).length===0)
     dispatch(savedItem(product))
   }
 
