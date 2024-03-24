@@ -84,6 +84,11 @@
     width: 3em;
     height: 3em;
 }
+
+.save-icon:active{
+    background-color: #9058da;
+    border-radius: 15px;
+}
 .add-to-cart{
     display: flex;
     grid-column: 1/span 2;

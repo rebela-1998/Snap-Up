@@ -10,7 +10,7 @@ const savedSlice = createSlice({
          state.push(action.payload)
         },
         removeSavedItem(state, action) {
-            state = state.filter((item) => (item.id !== action.payload))
+            return state.filter(item=>(item.product_id!==action.payload))
         },
     }
 
