@@ -27,17 +27,17 @@
 
 .username, .full-add, .mobile, .pin {
     display: grid;
-    grid-column: 1/span 2;
+    grid-column: 1/span 3;
 }
 
 .select-add, .del-add, .edit-add{
     display: grid;
-    grid-row: 6/ span 6;
+    grid-row: 6;
     margin-right: 1px;
 }
 
 .select-add{
-    grid-column: 1/span 1;
+    grid-column: 1;
     width: fit-content;
     font-size: 0.6rem;
     height: fit-content;
@@ -46,11 +46,11 @@
 }
 
 .del-add{
-    grid-column: 3/span 3;
+    grid-column: 3;
 }
 
 .edit-add{
-    grid-column: 2/span 2
+    grid-column: 2
 }
 .del-add, .edit-add{
      padding: 0;
