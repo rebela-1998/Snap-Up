@@ -4,6 +4,7 @@
 
 const Navbar = () => {
    const items=useSelector((state)=>state.cart);
+  //  const users=useSelector((state)=>state.login);
 
   return (
     <>
@@ -13,7 +14,6 @@ const Navbar = () => {
             <ul className='Nav-items'>
                 <li className='items'><NavLink className='nav-link' to='/products'>Shop</NavLink></li>
                 <li className='items'><NavLink className='nav-link' to='/order-history'>My Orders</NavLink></li>
-                {/* <li className='items'><NavLink className='nav-link' to='/login'>Login</NavLink></li> */}
                 <li className='items'><NavLink className='nav-link' to='/account'>My Account</NavLink></li>
                 <li className='items'><NavLink className='nav-link' to='/contact'>Contact Us</NavLink></li>     
                 <li className='cart'><NavLink className='cart-link' to='/cart'>Cart: {items.length}</NavLink></li>

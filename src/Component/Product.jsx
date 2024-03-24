@@ -1,17 +1,16 @@
-import { useState } from "react"
 import Item from "./Item"
 import Header from './Header.jsx'
-import products from './productApi.js'
+// import products from './productApi.js'
 import { useSelector } from "react-redux"
 
 const Product = () => {
 
-  const sort=useSelector(state=>state.productSorting)
+  const view=useSelector(state=>state.productView)
 
   return (
     <>
       <Header />
-      <Item  itemDetails={sort}/>
+      <Item  itemDetails={view}/>
     </>
   )
 }

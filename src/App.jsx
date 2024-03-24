@@ -28,7 +28,6 @@ const App=()=> {
             <Route path='/' element= {<Home/>} />
             <Route path='/products' element={<Product/>}/>
             <Route path='/order-history' element={<Orders/>}/>
-            {/* <Route path='/login' element={<Login/>}/> */}
             <Route path='/account' element={<AccountNav/>}>
               <Route index element={<Account/>}/>
               <Route path='profile' element={<Profile/>}/>

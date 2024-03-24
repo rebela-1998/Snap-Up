@@ -5,9 +5,9 @@ import { addItem,increaseItemQty,decreaseItemQty, removeItem } from '../Store/Sl
 import { savedItem } from '../Store/Slices/SavedSlice'
 
 
-const Item = ({ itemDetails }) => {
+const Item = ({itemDetails}) => {
   const dispatch = useDispatch();
-  // const [toggleAdd, setToggleAdd] = useState(true);
+  
   const cartItm=useSelector((state)=>state.cart)
   const savedItm=useSelector((state)=>state.wishlist)
 
@@ -49,7 +49,7 @@ const Item = ({ itemDetails }) => {
     <>
       <div className="Products">
         {itemDetails.map((Element) => {
-          const { product_id,imgUrl, product_name, product_price, product_unit, quantity } = Element;
+          const { product_id,imgUrl, product_name, product_price, product_unit } = Element;
           return (
             <div className='item' key={product_id}>
               <img src={imgUrl} className='itemImg' alt='product' />

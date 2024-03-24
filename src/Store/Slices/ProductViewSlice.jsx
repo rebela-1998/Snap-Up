@@ -1,14 +1,22 @@
 import { createSlice } from "@reduxjs/toolkit";
 import products from "../../Component/productApi";
 
-const initialState=products;
 
+const initialState=products;
+ 
 const productViewSlice=createSlice({
-     name: "productSorting",
+     name: "productView",
      initialState,
      reducers: {
+      viewOnCategory(state,action){
+        if(action.payload=='all'){
+          return initialState
+        }
+        else
+        return initialState.filter((itm)=>(itm.category==action.payload))
+      },
         sortingDefault(state,action){
-               return initialState;
+               return state;
         },
         sortingAlphabatically(state,action){
                return state.sort((p1, p2) => {
@@ -33,5 +41,5 @@ const productViewSlice=createSlice({
 })
 
 export default productViewSlice;
-export const {sortingDefault,sortingAlphabatically,sortingPriceLH,sortingPriceHL}=productViewSlice.actions; 
+export const {viewOnCategory,sortingDefault,sortingAlphabatically,sortingPriceLH,sortingPriceHL}=productViewSlice.actions; 
  

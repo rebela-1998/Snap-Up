@@ -7,8 +7,8 @@ const store=configureStore({
     reducer:{
         cart: cartSlice.reducer,
         wishlist: savedSlice.reducer,
-        productSorting: productViewSlice.reducer
-    }
+        productView: productViewSlice.reducer,
+        }
 })
 
 
